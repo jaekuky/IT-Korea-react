@@ -1,0 +1,465 @@
+
+.main{
+    width: 100vw;
+    height: 4800px;
+    position: absolute;
+    top: 201px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.contents-wrapper1{
+    width: 100vw;
+    flex-basis: 16.7%;
+    display: flex;
+    background-color: white;
+}
+.contents-wrapper1-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 246, 249);
+}
+.contents-wrapper1-left .paragraph1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    color: rgb(17, 46, 63);
+    font-size: 25px;
+    font-weight: bold;
+}
+.contents-wrapper1-left .paragraph2{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    display: flex;
+    color: rgb(33, 102, 141);
+    font-size: 70px;
+    font-weight: bold;
+    font-family: serif;
+}
+.contents-wrapper1-left .paragraph3{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    color: rgb(125, 147, 158);
+    font-size: 25px;
+    font-weight: bold;
+}
+.contents-wrapper1-left .button-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contents-wrapper1-left .button-box .request-info{
+    width: 200px;
+    height: 80px;
+    margin-right: 55px;
+    border-radius: 45%;
+    border: none;
+    background-color: rgb(218, 0, 15);
+    color: white;
+    font-size: 25px;
+    font-weight: 800px;
+    cursor: pointer; 
+}
+.contents-wrapper1-left .button-box .try-it-free{
+    width: 200px;
+    height: 80px;
+    margin-right: 55px;
+    border-radius: 45%;
+    border: none;
+    background-color: white;
+    color:  rgb(218, 0, 15);
+    font-size: 25px;
+    font-weight: 800px;
+    cursor: pointer; 
+    box-shadow: 10px 10px rgb(235, 244, 247);
+}
+
+.contents-wrapper1-right{
+    width: 60%;
+    background-color: rgb(239, 246, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents-wrapper1-right .img-box{
+    width: 600px;
+    height: 600px;
+}
+.contents-wrapper1-right .img-box img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 7%;
+    box-shadow: 12px 12px rgb(205, 217, 220);
+}
+
+.contents-wrapper2{
+    width: 100vw;
+    flex-basis: 16.7%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.contents-wrapper2-top{
+    width: 750px;
+    height: 35%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+.contents-wrapper2-top .paragraph1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(17, 46, 63);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.contents-wrapper2-top .paragraph2{
+    margin-bottom: 5px;
+    color: rgb(33, 102, 141);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+.contents-wrapper2-top .paragraph3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(125, 147, 158);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contents-wrapper2-bottom{
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+}
+.contents-wrapper2-bottom .edu-curriculum{
+    flex: 1;
+    height: 100%;
+} 
+.contents-wrapper2-bottom .img-box{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+.contents-wrapper2-bottom .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contents-wrapper2-bottom .paragraph1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(33, 102, 141);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+.contents-wrapper2-bottom .paragraph2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(33, 102, 141);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.contents-wrapper2-bottom .link-wrapper{
+    text-align: center;
+}
+.contents-wrapper2-bottom .learn-more{
+    color: rgb(206, 0, 15);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contents-wrapper3{
+    width: 100vw;
+    flex-basis: 16.7%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.contents-wrapper3 .paragraph{
+    margin: 100px auto;
+    color: rgb(33, 102, 141);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+.contents-wrapper3 .university-logo-wrapper{
+    display: flex;
+}
+.contents-wrapper3 .university-logo-wrapper .university-logo{
+    flex: 1;
+}
+.contents-wrapper3 .university-logo-wrapper .university-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contents-wrapper4{
+    width: 100vw;
+    flex-basis: 16.7%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.contents-wrapper4 .contents-wrapper4-top{
+    width: 800px;
+    height: 40%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+.contents-wrapper4 .contents-wrapper4-top .paragraph1{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(17, 46, 63);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+} 
+.contents-wrapper4 .contents-wrapper4-top .paragraph2{
+    margin-bottom: 20px;
+    color: rgb(33, 102, 141);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+} 
+.contents-wrapper4 .contents-wrapper4-top .paragraph3{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: rgb(125, 147, 158);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+} 
+.contents-wrapper4 .contents-wrapper4-bottom{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.contents-wrapper4-bottom .service-features{
+    width: 33%;
+    height: 100%;
+}
+.contents-wrapper4-bottom .paragraph1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(33, 102, 141);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+.contents-wrapper4-bottom .paragraph2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(111, 111, 111);
+    font-size: 30px;
+    text-align: center;
+}
+.contents-wrapper4-bottom .link-wrapper{
+    text-align: center;    
+}
+.contents-wrapper4-bottom .learn-more{
+    color: rgb(206, 0, 15);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contents-wrapper5{
+    width: 100vw;
+    flex-basis: 16.7%;
+    display: flex;
+    background-color: white;
+    position: relative;
+}
+.contents-wrapper5 .statistical-description{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 500px;
+    height: 300px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    z-index: 1;
+    background-color: white;
+}
+.statistical-description .paragraph1{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: rgb(17, 46, 63);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+
+}
+.statistical-description .paragraph2{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: rgb(33, 102, 141);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: serif;
+    text-align: left;
+
+}
+.statistical-description .paragraph3{
+    color: rgb(111, 111, 111);
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.contents-wrapper5 .statistical-figures-wrapper{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 97%;
+    height: 97%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+} .statistical-figures-wrapper .statistical-figures1{
+    flex-basis: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 102, 141);
+}
+.statistical-figures-wrapper .statistical-figures2{
+    flex-basis: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 94, 131);
+
+}
+.statistical-figures-wrapper .statistical-figures3{
+    flex-basis: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 88, 119);
+    
+}
+.statistical-figures-wrapper .paragraph1{
+    border-bottom: 30px;
+    color: white; 
+    font-size: 100px;
+    font-weight: 900px;
+    font-family: serif;
+    text-align: center;
+}
+.statistical-figures-wrapper .paragraph2{
+    color: white; 
+    font-size: 40px;
+    text-align: left;
+    
+}
+
+.contents-wrapper6{
+    width: 100vw;
+    flex-basis: 16.7%;
+    display: flex;
+    background-color: white;
+}
+.contents-wrapper6 .contents-wrapper6-left{
+    flex-basis: 50%;
+}
+.contents-wrapper6-left .paragraph1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgb(17, 46, 63);
+    font-size: 30px;
+    font-weight: bold;
+}
+.contents-wrapper6-left .paragraph2{
+    margin-bottom: 25px;
+    margin-left: 20px;
+    color: rgb(33, 102, 141);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: serif;
+}
+.contents-wrapper6-left .paragraph3{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: rgb(17, 46, 63);
+    font-size: 30px;
+    font-weight: bold;
+}
+.contents-wrapper6-left .paragrah-wrapper{
+    margin-left: 20px;
+    display: flex
+}
+.contents-wrapper6-left .paragrah-wrapper .img-box{
+    margin-right: 20px;
+}
+.contents-wrapper6-left .paragrah-wrapper .img-box img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.contents-wrapper6-left .paragrah-wrapper p{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-style: bold;
+    flex-basis: 80%;
+}
+.contents-wrapper6-left button{
+    margin-left: 20px;
+    width: 350px;
+    height: 60px;
+    margin-right: 55px;
+    border-radius: 45%;
+    border: none;
+    background-color: rgb(218, 0, 15);
+    color: white;
+    font-size: 20px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+.contents-wrapper6 .contents-wrapper6-right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents-wrapper6-right .img-box{
+    width: 600px;
+    height: 600px;
+}
+.contents-wrapper6-right .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}

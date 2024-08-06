@@ -1,0 +1,157 @@
+.header{
+    width: 100vw;
+    height: 200px;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-top{
+    border-bottom: 1px solid rgb(193, 212, 221);
+    width: 100vw;
+    height: 33%;
+    background-color: white;
+    display: flex;
+}
+.navbar-top-left{
+    width: 40.5%;
+    display: flex;
+    align-items: center;
+}
+.navbar-top-left .select-region{
+    margin-left: 50px;
+    background-color: rgb(239, 246, 249);
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-top-left .select-region p{
+    font-size: 20px;
+    font-weight: 900px;
+    color: rgb(34, 103, 142);
+    cursor: pointer;
+}
+.navbar-top-left .select-region p:hover{
+    color: rgb(218, 0, 15);
+}
+
+.navbar-top-center{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.navbar-top-center .search-input{
+    background-color: rgb(239, 246, 249);
+    color: rgb(17, 46, 63);
+    border-radius: 15%;
+    border: none;
+    font-size: 20px;
+    display: none;
+}
+.navbar-top-center .search-input.active{
+    display: inline;
+}
+
+.navbar-top-right{
+    width: 49.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-top-right .search i{
+    cursor: pointer;
+    color: rgb(218, 0, 15);
+}
+.navbar-top-right ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-top-right ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.navbar-top-right ul li a{
+    margin-left: 25px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(34, 103, 142);
+    font-size: 20px;
+}
+.navbar-top-right ul li a:hover{
+    border-bottom: 3px solid rgb(34, 103, 142);
+}
+.navbar-top-right .log-in{
+    width: 120px;
+    height: 50px;
+    border-radius: 45%;
+    border: none;
+    background-color: rgb(27, 91, 126);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+.navbar-top-right .log-in:hover{
+    color: rgb(218, 0, 15);
+}
+
+.navbar-bottom{
+    width: 100vw;
+    height: 67%;
+    background-color: white ;
+    display: flex;
+}
+.navbar-bottom-left{
+    width: 25%;
+    display: flex;
+}
+.navbar-bottom-left .logo-box{
+    width: 134px;
+    height: 134px;
+    margin-left: 100px;
+    object-fit: cover;
+}
+.navbar-bottom-left .logo-box img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar-bottom-right{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-bottom-right ul{
+    list-style: none;
+}
+.navbar-bottom-right ul li{
+    cursor: pointer;
+}
+.navbar-bottom-right ul li a{
+    margin-left: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgb(34, 103, 142);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-bottom-right ul li a:hover{
+    border-bottom: 3px solid rgb(34, 103, 142);
+}
+
+.navbar-bottom-right .get-a-demo{
+    width: 180px;
+    height: 60px;
+    margin-right: 55px;
+    border-radius: 45%;
+    border: none;
+    background-color: rgb(218, 0, 15);
+    color: white;
+    font-size: 20px;
+    font-weight: 800px;
+    cursor: pointer;
+}
